@@ -1,0 +1,20 @@
+                             PIZZA BUILDER               
+                           10036,MANHATTAN,NY
+                                   USA
+**************************************************
+Sun Oct 06 21:50:22 EDT 2019
+ORDER NUMBER :85
+Small Pizza                             $16.18
+***Crunchy Thin Crust
+Pepperoni
+Sausage
+Tomatoes
+Beverages               $1.0
+>Coca-Cola
+
+Slides                 $0.0
+>
+**************************************************
+      SUBTOTAL                    $17.18
+      TAXES (13%)                 $2.2334
+      TOTAL                       $19.4134

@@ -1,0 +1,22 @@
+                             PIZZA BUILDER               
+                           10036,MANHATTAN,NY
+                                   USA
+**************************************************
+Thu Aug 16 00:37:03 EDT 2018
+ORDER NUMBER :934
+Extra large Pizza                             $23.7
+***Stuffed Crust
+Ham
+Beef
+Green Pepper
+Beverages               $1.25
+>Diet Coke
+
+Slides                 $5.74
+>Bread Stick
+>Parmesan Bites
+#Combo 4 50% off         $2.0
+**************************************************
+      SUBTOTAL                    $32.69
+      TAXES (13%)                 $4.2497
+      TOTAL                       $36.939699999999995

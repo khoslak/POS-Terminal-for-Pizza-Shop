@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="1200.0" style="-fx-background-color: FFFFCC;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assignment1_kunal_khosla.FXMLDocumentController">
+   <children>
+      <Label layoutX="193.0" layoutY="31.0" prefHeight="93.0" prefWidth="486.0" text="PIZZA BUILDER" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Cooper Black" size="57.0" />
+         </font>
+         <effect>
+            <Lighting bumpInput="$null">
+               <light>
+                  <Light.Distant color="#a4a1a1" />
+               </light>
+            </Lighting>
+         </effect>
+         <textFill>
+            <LinearGradient endX="0.6333333333333333" endY="0.4666666666666667" startX="0.6333333333333333" startY="0.6476190476190476">
+               <stops>
+                  <Stop color="#eb6d9d" />
+                  <Stop color="#973b3b" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <ImageView fitHeight="126.0" fitWidth="124.0" layoutX="63.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/logo.png" />
+         </image>
+      </ImageView>
+      <Pane layoutX="22.0" layoutY="145.0" prefHeight="313.0" prefWidth="283.0">
+         <children>
+            <Label layoutX="47.0" layoutY="14.0" text="CHOOSE SIZE" textFill="#3b1080">
+               <font>
+                  <Font name="Cambria Italic" size="28.0" />
+               </font>
+            </Label>
+            <RadioButton fx:id="small" layoutX="40.0" layoutY="72.0" mnemonicParsing="false" onAction="#appearOnScreen" prefHeight="27.0" prefWidth="194.0" text="Small  Pizza($5.99)">
+               <toggleGroup>
+                  <ToggleGroup fx:id="size" />
+               </toggleGroup>
+               <font>
+                  <Font name="Agency FB" size="22.0" />
+               </font></RadioButton>
+            <Label layoutX="78.0" layoutY="104.0" text="Cals 173-355 per slice; 6 slices" />
+            <RadioButton fx:id="medium" layoutX="40.0" layoutY="137.0" mnemonicParsing="false" onAction="#appearOnScreen" text="Medium Pizza($8.75)" toggleGroup="$size">
+               <font>
+                  <Font name="Agency FB" size="22.0" />
+               </font></RadioButton>
+            <Label layoutX="78.0" layoutY="166.0" text="Cals 176-378 per slice; 8 slices" />
+            <RadioButton fx:id="large" layoutX="40.0" layoutY="200.0" mnemonicParsing="false" onAction="#appearOnScreen" text="Large Pizza($11.99)" toggleGroup="$size">
+               <font>
+                  <Font name="Agency FB" size="22.0" />
+               </font></RadioButton>
+            <Label layoutX="81.0" layoutY="229.0" text="Cals 239-515 per slice; 8 slices" />
+            <RadioButton layoutX="40.0" layoutY="266.0" mnemonicParsing="false" onAction="#appearOnScreen" text="X-Large Pizza($14.75)" toggleGroup="$size" fx:id="xLarge">
+               <font>
+                  <Font name="Agency FB" size="22.0" />
+               </font></RadioButton>
+            <Label layoutX="75.0" layoutY="293.0" text="Cals 274-569 per slice; 10 slices" />
+         </children>
+      </Pane>
+      <Pane layoutX="304.0" layoutY="154.0" prefHeight="273.0" prefWidth="264.0">
+         <children>
+            <Label layoutX="35.0" layoutY="7.0" text="CHOOSE CRUST" textFill="#d94545eb">
+               <font>
+                  <Font name="Cambria Italic" size="28.0" />
+               </font>
+            </Label>
+            <RadioButton fx:id="thinCrust" layoutX="6.0" layoutY="58.0" mnemonicParsing="false" onAction="#appearOnScreen" text="Crunchy Thin Crust($3.99)">
+               <toggleGroup>
+                  <ToggleGroup fx:id="crust" />
+               </toggleGroup>
+               <font>
+                  <Font name="Agency FB" size="22.0" />
+               </font></RadioButton>
+            <Label layoutX="43.0" layoutY="88.0" prefHeight="17.0" prefWidth="219.0" text="Thin and crispy, seasoned with oregano ">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font></Label>
+            <RadioButton fx:id="handMade" layoutX="6.0" layoutY="125.0" mnemonicParsing="false" onAction="#appearOnScreen" text="Hand Made Pan($3.00)" toggleGroup="$crust">
+               <font>
+                  <Font name="Agency FB" size="22.0" />
+               </font></RadioButton>
+            <Label layoutX="50.0" layoutY="160.0" text="Crispy golden crust and a buttery taste" />
+            <RadioButton fx:id="stuffCrust" layoutX="6.0" layoutY="189.0" mnemonicParsing="false" onAction="#appearOnScreen" text="Stuffed Crust($2.00)" toggleGroup="$crust">
+               <font>
+                  <Font name="Agency FB" size="22.0" />
+               </font></RadioButton>
+            <Label layoutX="50.0" layoutY="218.0" text="Sticks of mozzarella string cheese" />
+         </children>
+      </Pane>
+      <Pane layoutX="592.0" layoutY="139.0" prefHeight="304.0" prefWidth="524.0">
+         <children>
+            <Label layoutX="133.0" layoutY="14.0" style="-fx-text-fill: HotPink;" text="CHOOSE TOPPINGS">
+               <font>
+                  <Font name="Cambria Italic" size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="21.0" layoutY="68.0" text="CHOOSE MEAT">
+               <font>
+                  <Font name="Cambria Italic" size="24.0" />
+               </font>
+            </Label>
+            <CheckBox fx:id="pepperoni" layoutX="34.0" layoutY="113.0" mnemonicParsing="false" onAction="#appearOnScreen" text="Pepperoni($2.00)">
+               <font>
+                  <Font name="Agency FB" size="22.0" />
+               </font></CheckBox>
+            <CheckBox fx:id="sausage" layoutX="34.0" layoutY="157.0" mnemonicParsing="false" onAction="#appearOnScreen" text="Sausage($2.20)">
+               <font>
+                  <Font name="Agency FB" size="22.0" />
+               </font></CheckBox>
+            <CheckBox fx:id="ham" layoutX="34.0" layoutY="197.0" mnemonicParsing="false" onAction="#appearOnScreen" text="Ham($2.75)">
+               <font>
+                  <Font name="Agency FB" size="22.0" />
+               </font></CheckBox>
+            <CheckBox fx:id="beef" layoutX="34.0" layoutY="237.0" mnemonicParsing="false" onAction="#appearOnScreen" text="Beef($3.00)">
+               <font>
+                  <Font name="Agency FB" size="22.0" />
+               </font></CheckBox>
+            <CheckBox fx:id="bacon" layoutX="34.0" layoutY="274.0" mnemonicParsing="false" onAction="#appearOnScreen" text="Bacon($2.00)">
+               <font>
+                  <Font name="Agency FB" size="22.0" />
+               </font></CheckBox>
+            <Label layoutX="244.0" layoutY="68.0" style="-fx-font-family: Cambria; -fx-font-size: 24; -fx-font-style: italic;" text="CHOOSE NON-MEAT">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <CheckBox fx:id="greenOlives" layoutX="244.0" layoutY="113.0" mnemonicParsing="false" onAction="#appearOnScreen" text="Green Olives($1.20)">
+               <font>
+                  <Font name="Agency FB" size="22.0" />
+               </font></CheckBox>
+            <CheckBox fx:id="greenPepper" layoutX="244.0" layoutY="157.0" mnemonicParsing="false" onAction="#appearOnScreen" text="Green Pepper($1.20)">
+               <font>
+                  <Font name="Agency FB" size="22.0" />
+               </font></CheckBox>
+            <CheckBox fx:id="tomatoes" layoutX="244.0" layoutY="196.0" mnemonicParsing="false" onAction="#appearOnScreen" text="Tomatoes($2.00)">
+               <font>
+                  <Font name="Agency FB" size="22.0" />
+               </font></CheckBox>
+            <CheckBox fx:id="onion" layoutX="244.0" layoutY="235.0" mnemonicParsing="false" onAction="#appearOnScreen" text="Onions($1.00)">
+               <font>
+                  <Font name="Agency FB" size="22.0" />
+               </font></CheckBox>
+            <CheckBox fx:id="mushroom" layoutX="244.0" layoutY="274.0" mnemonicParsing="false" onAction="#appearOnScreen" text="Mushroom($1.00)">
+               <font>
+                  <Font name="Agency FB" size="22.0" />
+               </font></CheckBox>
+         </children>
+      </Pane>
+      <FlowPane hgap="15.0" layoutX="61.0" layoutY="467.0" orientation="VERTICAL" prefHeight="166.0" prefWidth="205.0" vgap="15.0">
+         <children>
+            <Button fx:id="add" mnemonicParsing="false" onAction="#addTo" prefHeight="65.0" prefWidth="161.0" style="-fx-background-color: #4d0000; -fx-font-size: 30; -fx-text-fill: white;" text="ADD" textFill="#cbe40f" textOverrun="CENTER_ELLIPSIS" />
+            <Button mnemonicParsing="false" onAction="#removePizza" prefHeight="65.0" prefWidth="158.0" style="-fx-background-color: #4d0000; -fx-text-fill: white; -fx-font-size: 30;" text="REMOVE" />
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <padding>
+            <Insets left="20.0" top="20.0" />
+         </padding>
+      </FlowPane>
+      <TextArea fx:id="Treceipt" layoutX="276.0" layoutY="461.0" prefHeight="200.0" prefWidth="340.0" text="            " />
+      <Label layoutX="372.0" layoutY="419.0" prefHeight="48.0" prefWidth="172.0" text="RECEIPT">
+         <font>
+            <Font name="Brush Script MT Italic" size="36.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.34285714285714286" startY="0.05238095238095238">
+               <stops>
+                  <Stop color="ORANGE" />
+                  <Stop color="#e6e6e6" offset="0.337006754354781" />
+                  <Stop color="GREEN" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="679.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/photo.png" />
+         </image>
+      </ImageView>
+      <VBox layoutX="653.0" layoutY="484.0" prefHeight="200.0" prefWidth="194.0" spacing="10.0">
+         <children>
+            <Button fx:id="finish" mnemonicParsing="false" onAction="#getReciept" prefHeight="65.0" prefWidth="171.0" style="-fx-text-fill: white; -fx-background-color: #4d0000; -fx-font-size: 30;" text="FINISH" />
+            <Button fx:id="recall" mnemonicParsing="false" onAction="#recallOrder" prefHeight="65.0" prefWidth="172.0" style="-fx-background-color: #4d0000; -fx-text-fill: white; -fx-font-size: 30;" text="Recall" />
+         </children>
+      </VBox>
+      <Button layoutX="479.0" layoutY="673.0" mnemonicParsing="false" onAction="#addBev" prefHeight="52.0" prefWidth="200.0" style="-fx-text-fill: white; -fx-background-color: #4d0000; -fx-font-size: 20;" text="SLIDE&amp;BEVERAGES" />
+      <Button layoutX="228.0" layoutY="673.0" mnemonicParsing="false" onAction="#addCombo" prefHeight="52.0" prefWidth="185.0" style="-fx-background-color: #4d0000; -fx-text-fill: white; -fx-font-size: 20;" text="COMBO-SPECIAL" />
+      <StackPane fx:id="sPane" layoutX="916.0" layoutY="475.0" prefHeight="189.0" prefWidth="226.0" />
+   </children>
+</AnchorPane>

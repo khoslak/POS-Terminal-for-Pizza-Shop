@@ -1,0 +1,18 @@
+                             PIZZA BUILDER               
+                           10036,MANHATTAN,NY
+                                   USA
+**************************************************
+Tue Oct 08 19:21:13 EDT 2019
+ORDER NUMBER :342
+Small Pizza                             $20.14
+***Hand Made
+Pepperoni
+Ham
+Sausage
+Green Pepper
+Tomatoes
+Mushroom
+**************************************************
+      SUBTOTAL                    $20.14
+      TAXES (13%)                 $2.6182000000000003
+      TOTAL                       $22.758200000000002

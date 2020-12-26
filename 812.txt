@@ -1,0 +1,25 @@
+                             PIZZA BUILDER               
+                           10036,MANHATTAN,NY
+                                   USA
+**************************************************
+Thu Aug 16 00:29:46 EDT 2018
+ORDER NUMBER :812
+Large Pizza                             $21.93
+***Crunchy Thin Crust
+Pepperoni
+Ham
+Green Pepper
+Large Pizza                             $18.94
+***Stuffed Crust
+Ham
+Sausage
+Beverages               $1.0
+>Coca-Cola
+
+Slides                 $1.99
+>Bread Stick
+#Combo 4 50% off         $2.0
+**************************************************
+      SUBTOTAL                    $45.86000000000001
+      TAXES (13%)                 $5.961800000000001
+      TOTAL                       $51.82180000000001

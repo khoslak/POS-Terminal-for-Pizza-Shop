@@ -1,0 +1,16 @@
+                             PIZZA BUILDER               
+                           10036,MANHATTAN,NY
+                                   USA
+**************************************************
+Sat Mar 30 20:03:58 EDT 2019
+ORDER NUMBER :724
+Medium Pizza                             $20.15
+***Hand Made
+Sausage
+Beef
+Green Pepper
+Tomatoes
+**************************************************
+      SUBTOTAL                    $20.15
+      TAXES (13%)                 $2.6195
+      TOTAL                       $22.769499999999997

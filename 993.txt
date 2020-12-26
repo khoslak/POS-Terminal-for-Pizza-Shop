@@ -1,0 +1,28 @@
+                             PIZZA BUILDER               
+                           10036,MANHATTAN,NY
+                                   USA
+**************************************************
+Thu Aug 16 21:14:12 EDT 2018
+ORDER NUMBER :993
+Extra large Pizza                             $36.099999999999994
+***Hand Made
+Pepperoni
+Ham
+Sausage
+Beef
+Bacon
+Green Olives
+Green Pepper
+Tomatoes
+Onions
+Mushroom
+Beverages               $1.75
+>Pepsi
+
+Slides                 $0.0
+>
+#Combo 4 50% off         $2.0
+**************************************************
+      SUBTOTAL                    $39.849999999999994
+      TAXES (13%)                 $5.180499999999999
+      TOTAL                       $45.030499999999996
